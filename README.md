@@ -74,13 +74,3 @@ densenets. A non-residual network can be described as a plain network when think
 the context of residual neural networks.
 When deeper networks start converging, a degradation problem has been exposed: with
 the network depth increasing, accuracy gets saturated and then degrades rapidly.
-
-Results
-I. Dataset 1
-ML Algorithm         Cancer Type    Dataset Type  Accuracy
-Logistic Regression  Breast Cancer  Numeric       79%
-KNN                  Breast Cancer  Numeric       91%
-SVM                  Breast Cancer  Numeric       88%
-II. Dataset 2
-DCNN                 Cancer Type    Dataset Type  Accuracy
-ResNet V50           Breast Cancer  Image         84%
